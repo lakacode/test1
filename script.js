@@ -15,7 +15,9 @@
  * * Work on localstorage before file
  */
 
-let initArr = JSON.parse(getFromStorage("INIT__ARR", []));
+// let initArr = JSON.parse(getFromStorage("INIT__ARR", []));
+let initArr =  [57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+saveToStorage("INIT__ARR", JSON.stringify(initArr));
 let displayArr = JSON.parse(getFromStorage("DISPLAY__ARR", []));
 
 saveToStorage("DISPLAY__ARR", JSON.stringify(displayArr));
